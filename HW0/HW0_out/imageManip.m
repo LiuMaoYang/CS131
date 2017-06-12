@@ -1,6 +1,7 @@
 %reads in the image, converts it to grayscale, and converts the intensities
 %from uint8 integers to doubles. (Brightness must be in 'double' format for
 %computations, or else MATLAB will do integer math, which we don't want.)
+%uint8-->(0,255), double-->(0,1)
 clear
 close all
 clc
